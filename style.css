@@ -1,17 +1,47 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(11, 227, 220);
+    background-color: #d9b8c4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #703d57;
+}
+
+h2 {
+    color: #414535;
 }
 
 a {
     text-decoration: none;
+    
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #703d57;
+    padding: 20px;
 }
 
 a:hover {
     color: rgb(2, 130, 123);
 }
+
+main {
+    margin: 50px;
+}
+
+footer {
+    background-color: #703d57;
+    padding: 20px;
+    color: aliceblue;
+}
+
 
 
 
