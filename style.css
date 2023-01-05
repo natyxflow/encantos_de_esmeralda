@@ -48,8 +48,8 @@ a:hover {
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 360px;
+    max-width: 700px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -60,7 +60,10 @@ main {
 }
 
 main img {
-    width: 50%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: auto;
+    display: block;
 }
 
 main a {
